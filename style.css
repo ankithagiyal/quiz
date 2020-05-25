@@ -1,0 +1,137 @@
+
+#heading
+{     position: absolute;
+	     left:17%;
+    	width: 1000px;
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+		box-shadow: 0 0 8px 3px #fff;
+}
+#text
+{
+	 text-align: center;
+}
+#quiz
+{
+	    height: 490px;
+    	width: 60%;
+    	position: absolute;
+    	left:20%;
+    	top: 20%;
+    	text-align: center;
+		background:white;
+		padding: 20px;
+		
+		
+	
+}
+#question
+{
+   padding: 20px;
+   font-size: 26px;
+   background:black;
+   border-radius: 10px;
+   margin: 10px 0 10px 0;
+   color: #f6f6f6;
+   font-family: 'Pathway Gothic One', sans-serif;
+}
+.option{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	background: rgba(255,255,255,0.5);
+	margin: 10px 0 10px 10px;
+	color:black;
+	 border: 2px solid black; 
+	border-radius: 5px;
+	font-size: 20px;
+	
+	font-family: 'Inconsolata', monospace;
+
+
+}
+
+.option:hover{
+	background:teal;
+	color: #f6f6f6;	
+}
+#next
+{
+	font-family: 'Caveat', cursive;
+
+	background-color:teal;
+	width:40%;
+	height: 2px;
+	font-size:20px ;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;;
+	float: right;
+	 padding: 30px 10px;
+	 margin-top: 10px;
+	 margin-right:280px
+	
+}
+#next:hover{
+	background-color:grey
+}
+#quit
+{
+	position: absolute;
+	 top:10px;
+right:  10px ;
+font-family: 'Caveat', cursive;
+ 
+	background-color:maroon;
+font-size: 25px;
+	border: 1px solid white;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;;
+	float: right;
+	 padding: 10px 50px;
+	 color:white ;
+	
+}
+#quit:hover{
+		background-color:gray
+}
+#result
+{font-family: 'Sigmar One', cursive;
+	font-size:70px;
+	 text-align: center;
+    	 height: 200px;
+    	width: 60%;
+    	position: absolute;
+    	left:20%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background:black;
+		padding: 20px;
+color:white;
+		
+		
+}
+
+	body{
+		background-image:url("pic2.jpg");
+		background-repeat: no-repeat;
+		background-size: 1200% 1200%;
+		
+		
+		}
+		#count
+		{background-color: maroon;
+		width:250px ;
+		height: 60px;
+		font-family: 'Caveat', cursive;
+
+font-size: 23px ;
+text-align: center;
+color: white;
+top:10px;
+right:  10px ;
+border: 1px solid white;
+margin-top:10px;
+
+		
+		}
